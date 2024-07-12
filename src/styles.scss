@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #7b8c8d;
+  --background-color: #f9f9f9;
+  --card-background-color: #ffffff;
+  --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --border-radius: 10px;
+  --font-family-heading: "Roboto", sans-serif;
+  --font-family-body: "Open Sans", sans-serif;
+  --primary-sidebar-color: #5585b5;
+
+  --dark-background-color: #000000;
+  --dark-card-background-color: #1e1e1e;
+  --dark-primary-color: #bb86fc;
+  --dark-secondary-color: #e0e0e0;
+  --dark-sidebar-color: #bb86fc;
+}
+
+body {
+  font-family: var(--font-family-body);
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+  color: var(--primary-color);
+}
+
+.dark-mode {
+  --primary-color: var(--dark-primary-color);
+  --secondary-color: var(--dark-secondary-color);
+  --background-color: var(--dark-background-color);
+  --card-background-color: var(--dark-card-background-color);
+  --primary-sidebar-color: var(--dark-sidebar-color);
+}
+
+.mat-raised-button {
+  color: #fff;
+  background: var(--primary-sidebar-color);
+}

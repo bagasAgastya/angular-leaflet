@@ -1,0 +1,41 @@
+.map-container {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 30px;
+  height: 70vh;
+}
+
+.map-frame {
+  border: 2px solid black;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+}
+
+.leaflet-popup-content-wrapper {
+  background: white;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.leaflet-popup-tip {
+  background: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.text {
+  flex: 1;
+}
+.button {
+  flex: none;
+}
